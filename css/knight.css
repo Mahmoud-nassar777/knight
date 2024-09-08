@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start head css */
+#mo{
+    padding-top:200px;
+}
+#md8{
+    text-align: center;
+}
+#center{
+    display: flex; 
+    justify-content: center;
+}
+#nano{
+    color: white; 
+    font-size: 57px;  
+    padding: 20px 0;
+}
+#but{
+    padding: 13px 60px;  
+    margin: 15px 0;
+}
+#but:hover{
+   background-color: white;
+   color: greenyellow;
+}
+/* end head css */
+/* start nav css */
+#logo{
+    max-width: 40px;
+    max-height: 40px;
+}
+#navss{
+    border-radius: 10px;
+    background-color: black;
+}
+#linked{
+    margin: 0px 10px;
+    font-size: x-large;
+}
+#in{
+    color: #0000008c;
+    font-family: 'bootstrap-icons';
+    font-size: larger;
+}
+#in:hover{
+    color: green;
+}
+#btn{
+    border-radius: 1.25rem;
+    margin-right: 70px;
+}
+#ull{
+    padding-left: 125px;
+}
+@media (max-width:990px ) {
+    #ull{
+        margin-left: 0px;
+    }
+    
+}
+/* end nav css */
+/* start about css */
+#container{
+    max-width: 1265px;
+    padding: 30px 0px;
+}
+#cov{
+    transition: 0.5s;
+    padding-bottom: 20px;
+}
+#cov:hover{
+    transform: scale(1.1);
+    color: rgb(83, 131, 11);
+
+}
+#us{
+    text-align: center;
+    padding: 40px 0px;
+}
+#about{
+    width: 100%;
+    height: 100%;
+    border: 15px white solid;
+    box-shadow: 0px 0px 19px 11px #0000002e;
+    margin: 0 -10px;
+    animation-name: img;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes img {
+    0%{
+      translate: 0px 0px;  
+    }
+    25%{
+        translate: 20px 0px;
+    }
+    50%{
+      translate: 0px 30px;  
+    }
+    75%{
+        translate: 20px 0px;
+    }
+    100%{
+       translate: 0px 30px;
+    }
+}
+#moh{
+    padding: 90px 50px ; 
+}
+@media (max-width:768px) {
+    #moh{
+      margin:0 10px; 
+    }
+}
+/* end about css */
+ /* start SERVICE css */
+ #abot{
+    width: 100%;
+    height: 100%;
+}
+#inable{
+    width: 100%;
+    height: 100%;
+    animation-name: ina;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes ina {
+    0%{
+      translate: 0px 0px;  
+    }
+    50%{
+      translate: 0px 30px; 
+      rotate: 10deg; 
+    }
+    100%{
+       translate: 0px 0px;
+       rotate: -10deg; 
+    }
+}
+#iclo{
+    width: 100%;
+    height: 100%;
+    animation-name: icl;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes icl {
+    0%{
+      translate: 0px 0px;  
+    }
+    50%{
+      translate: 0px 30px; 
+       
+    }
+    100%{
+       translate: 0px 0px;
+        
+    }
+}
+#dis{
+    display: flex;
+    padding: 0 15px;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+#dis:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 15px 15px;
+}
+#icon{
+    color: green;
+    font-size: 35px;
+}
+#disp{
+    padding: 5px 15px;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+#disp:hover h3{
+    color: green;
+}
+#disp:hover{
+    box-shadow: 0px 0px 19px 11px #0000002e;
+    transform: scale(1.1);
+    background-color: cornsilk;
+}
+@media (max-width:470px) {
+    #disp{
+        padding: 0;
+    }
+}
+#collor{
+    color: black;
+    text-wrap: wrap;
+}
+#collor:hover{
+    color: green;
+}
+#lor{
+    padding: 50px;
+}
+@media (max-width:550px) {
+    #lor{padding: 0px;}
+}
+ /* end SERVICE css */
+ /* start porfolio css */
+ #abota{
+    width: 100%;
+    height: 100%;
+    padding: 15px 0px; 
+ }
+ #figo{
+    margin: 0px 15px; 
+    border: none ; 
+    outline: none;
+    background-color: revert-layer;
+ }
+ #figo:hover{
+    background-color: green;
+ }
+ #testm{
+    text-align: center;
+ }
+ #abott{
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px 0px;
+ }
+ #coll{
+    width: 50%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+    padding: 15px 25px;
+ }
+ #coll:hover{
+    transform: scale(1.1);
+    filter: none;
+ }
+ #abotat{
+    width: 70%;
+ }
+ #ped{
+    padding: 60px 300px;
+ }
+ @media (max-width:1050px) {
+    #ped{
+        padding: 60px 0px;
+    }
+ }
+ /* end porfolio css */
+ /* start team css */
+ #abotta{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+ }
+ /* end team css */
+ /* start pricing css */
+ #free{
+    text-align: center; 
+    padding: 40px 0;
+    background-color: white; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+ #freee{
+    border: 2px solid green;
+    text-align: center; 
+    padding: 40px 0;
+    background-color: white; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+ /* end pricing css */
+ /* start question css */
+ /* end question css */
+ /* start contact css */
+ #roww{
+    margin: 70px 0;
+    /* box-shadow: 0px 0px 19px 11px #0000002e; */
+    padding: 50px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+ }
+ #rowww{
+    margin: 70px 0;
+    /* box-shadow: 0px 0px 19px 11px #0000002e; */
+    padding: 87px 50px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+ }
+ #test{
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #0000004d;
+    margin-bottom: 10px;
+ }
+ #testt{
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #0000004d;
+    margin: 20px 0;
+ }
+ #testtt{
+    width: 100%;
+    padding: 10px;
+ }
+ #con{
+    font-size: 2rem;
+    background-color: rgba(26, 255, 0, 0.184);
+    color: green;   
+    border-radius: 50%;
+    padding: 0 13px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #con:hover{
+    color: white;
+    background-color: green;
+ }
+ /* end contact css */
+ /* start fottr css */
+ #foot{
+    background: url(../img/footer-bg.jpg) center center no-repeat;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+ }
+ #foot::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+}
+#containerr{
+    max-width: 1265px;
+    padding: 100px 0px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+#buttt{
+    padding: 13px 10px;  
+    margin: 15px 0;
+    position: relative;
+    width: 100%;
+    border-radius: 40px;
+}
+#butt{
+    position: absolute;
+    content: "";
+    padding: 12px 60px;  
+    margin: 15px 0;
+    right: 0;
+    border-radius: 40px;
+}
+#log{
+    font-size: medium;
+    background-color:#82df82c2;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 20px 9px;
+}
+ /* end fottr css */
+
